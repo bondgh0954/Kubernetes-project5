@@ -15,9 +15,18 @@
 
    <p align="">
    <h2>step1</h2>
-   create a private docker registry in AWS (AWS Elastic Container Registry)<br/>
+   Key information before deploying microservice application<br/>
+   1. How the services are connected
+   2. If the application requires any third party service eg databases
+   3. Which Service is accessible from outside the cluster
+   4. The image name for each microservice
+   5. Environment vaiable required for each microservice
+   6. Ports on which each microservice starts
+   7. Namespace in which microservice is deployed
+
+   From the above information, a connection graph is generated 
       
-   <img src='./kam/im1.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+   <img src='./cam/m1.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
    private registry is created in AWS
    <img src='./kam/im2.png' height="80%" width="80%" alt="Disk Sanitization Steps">
