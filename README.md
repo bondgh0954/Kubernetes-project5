@@ -30,14 +30,7 @@
 
 
    <h2>step2</h2>
-   get the access token from AWS (aws ecr get-login-password)<br/>
-   ssh into minikube (minikube ssh)<br/>
-   login to ecr using the access token as password in minikube<br/>
-   docker login --username AWS -p (paste the accesstoken after password) + url of repo<br/>
-   
-   <img src='./kam/im4.png' height="80%" width="80%" alt="Disk Sanitization Steps">
-   
-   .docker directory will be created and the access token will be saved in .docker/config.json <br/>
+   Create Deployment and Service for all microServices 
    <img src='./kam/im5.png' height="80%" width="80%" alt="Disk Sanitization Steps">
   
 
