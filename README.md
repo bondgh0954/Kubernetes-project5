@@ -30,38 +30,24 @@
 
 
    <h2>step2</h2>
-   Create Deployment and Service for all microServices 
-   <img src='./kam/im5.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+   Create a kubernetes cluster in linode<br/>
+   change permission on kubeconfig.yaml file<br/>
+   connect to the cluster<br/>
+   
+  
+  
   
 
    <h2>step3</h2>
-   Create a secret for kubernetes cluster with the secret token<br/>
-   copy the content of the the (.docker/config.json) file in minikube to the host (.docker/config.json) dir<br/>
-   minikube cp minikube:/home/docker/.docker/config.json ~/.docker/config.json<br/>
-
-   create a secret with the access token in base64 encoded<br/>
-   <img src='./kam/im6.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+ 
+  Create Deployment and Service for all microServices in the created cluster
+   <img src='./cam/m3.png' height="80%" width="80%" alt="Disk Sanitization Steps">
    
 
  <h2>step4</h2>
- Create a deployment for the application to pull the image from the registry using the secret created in minikube<br/>
- <img src='./kam/im7.png' height="80%" width="80%" alt="Disk Sanitization Steps">
-
- Deployment is created <br/>
- <img src='./kam/im8.png' height="80%" width="80%" alt="Disk Sanitization Steps">
-
-  pod is running in minikube<br/>
- <img src='./kam/im9.png' height="80%" width="80%" alt="Disk Sanitization Steps">
-
-
-
-  
- 
-
-   
-    
-    
-   
+ All pod are running and application can be accessed in the browser using the node IP and <br/>
+ configured external service IP with the frontend service<br/>
+ <img src='./cam/m2.png' height="80%" width="80%" alt="Disk Sanitization Steps">
      
 
 </p>
