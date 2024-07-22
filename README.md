@@ -16,13 +16,13 @@
    <p align="">
    <h2>step1</h2>
    Key information before deploying microservice application<br/>
-   1. How the services are connected
-   2. If the application requires any third party service eg databases
-   3. Which Service is accessible from outside the cluster
-   4. The image name for each microservice
-   5. Environment vaiable required for each microservice
-   6. Ports on which each microservice starts
-   7. Namespace in which microservice is deployed
+   1. How the services are connected<br/>
+   2. If the application requires any third party service eg databases<br/>
+   3. Which Service is accessible from outside the cluster<br/>
+   4. The image name for each microservice<br/>
+   5. Environment vaiable required for each microservice<br/>
+   6. Ports on which each microservice starts<br/>
+   7. Namespace in which microservice is deployed<br/>
 
    From the above information, a connection graph is generated 
       
